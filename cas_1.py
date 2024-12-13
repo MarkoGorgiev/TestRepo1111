@@ -97,7 +97,7 @@ lista_vraboteni = []
 
 for _ in range(2):
     # Gi kreirame objektite od vraboteni i gi dodavame vo listata so vraboteni
-    ime_vraboten = input("Vnesi go imeto na vraboteniot: ")
+    ime_vraboten = input("Vnesi go imeto na vraboteniot!: ")
     godini_vraboten = input("Vnesi gi godinite na vraboteniot: ")
     plata_vraboten = int(input("Vnesi ja platata na vraboteniot: "))
 
@@ -108,6 +108,8 @@ for _ in range(2):
 
 
 suma_plata = 0
+
+
 
 for vrab in lista_vraboteni:
     # Gi izminuvame objektite i pravime suma na plata
